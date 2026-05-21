@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" href="bahanujian.css">
+</head>
+<body>
+
+<div class="kotak">
+   <div id="hasil">
+        Data anda harus ditampilkan di sini...
+    </div>
+    <h2>Forum pendaftaran</h2>
+
+    <label>Nama lengkap:</label>
+    <input type="text" id="nama"placeholder="contoh:Siti aisyah">
+
+  <label>Jenis Kelamin:</label>
+   <div class="kotak3">
+            <label>
+                <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Perempuan"> Perempuan
+            </label>
+			</div><div>
+
+  <div>  <label>Belanjaan yang dibeli:</label>
+    <div class="kotak3">
+       <input type="text" id="nama"placeholder="contoh:Siti aisyah">
+    </div>
+
+    <label>Metode pembayaran:</label>
+    <label>
+	<div class="kotak4">
+	<label>
+	<input type="radio" name="hari" value="Pagi"> Credit
+	</label>
+	
+    <label>
+	<input type="radio" name="hari" value="Siang"> Debit
+	</label>
+	
+    <label>
+	<input type="radio" name="hari" value="Sore"> Gopay
+	</label>
+	
+    <label>
+	<input type="radio" name="hari" value="Campuran"> Dana
+	</label>
+	<br>
+	
+	</div>
+  <div class="actions">
+  	<button type="button" onclick="tampil()">Daftar sekarang</button>
+    <button type="button" onclick="resetForm()">Reset Form</button>
+	 <button onclick="history.back()">Cancel</button>
+    </div>
+
+
+</div>
+</form>
+
+<script src="bahanujian.js"></script>
+</body>
+</html>
